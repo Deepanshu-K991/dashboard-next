@@ -1,0 +1,19 @@
+{
+  "name": "next-light",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "apexcharts": "^5.3.4",
+    "chart.js": "^4.5.0",
+    "feather-icons": "^4.29.2",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
