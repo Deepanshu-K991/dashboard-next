@@ -543,14 +543,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Discord Community](https://discord.gg/your-community)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/next-light)
 
-### Professional Support
-
-For enterprise support and custom development:
-
-- Email: support@next-light.com
-- Phone: +1 (555) 123-4567
-- Website: https://next-light.com/support
-
 ---
 
 **Next-Light Dashboard** - Professional Admin Template for Modern Web Applications
