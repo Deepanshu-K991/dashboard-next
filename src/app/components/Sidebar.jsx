@@ -80,24 +80,24 @@ export default function Sidebar() {
                 <span>Dashboard</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu" style={{ display: "block" }}>
                 <li className="active"><a href="/">Sales</a></li>
-                <li><a href="/">Analytics</a></li>
-                <li><a href="/">Cryptocurrency</a></li>
-                <li><a href="/">Helpdesk</a></li>
-                <li><a href="/">Project</a></li>
-                <li><a href="/">Ecommerce</a></li>
-                <li><a href="/">Server</a></li>
-                <li><a href="/">Education</a></li>
-                <li><a href="/">Event</a></li>
-                <li><a href="/">Social</a></li>
+                <li><a href="/dashboard/analytics">Analytics</a></li>
+                <li><a href="/dashboard/crypto">Cryptocurrency</a></li>
+                <li><a href="/dashboard/helpdesk">Helpdesk</a></li>
+                <li><a href="/dashboard/project">Project</a></li>
+                <li><a href="/dashboard/ecommerce">Ecommerce</a></li>
+                <li><a href="/dashboard/server">Server</a></li>
+                <li><a href="/dashboard/education">Education</a></li>
+                <li><a href="/dashboard/event">Event</a></li>
+                <li><a href="/dashboard/social">Social</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="mail"></i>
                 <span>Mailbox</span><span className="badge badge-warning ft-right">10+</span></a>
               <ul className="sub-menu">
-                <li><a href="/">Inbox</a></li>
-                <li><a href="/">View Mail</a></li>
-                <li><a href="/">Compose Mail</a></li>
+                <li><a href="/mailbox">Inbox</a></li>
+                <li><a href="/mailbox/message">View Mail</a></li>
+                <li><a href="/mailbox/compose">Compose Mail</a></li>
               </ul>
             </li>
             <li>
@@ -110,87 +110,87 @@ export default function Sidebar() {
               <a href="#"><i data-feather="grid"></i>
                 <span>UI Elements</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Card</a></li>
-                <li><a href="/">Alerts</a></li>
-                <li><a href="/">Buttons</a></li>
-                <li><a href="/">Badges</a></li>
-                <li><a href="/">Typography</a></li>
-                <li><a href="/">Notifications</a></li>
-                <li><a href="/">Modals</a></li>
-                <li><a href="/">Tooltips</a></li>
-                <li><a href="/">Progress</a></li>
-                <li><a href="/">Spinners</a></li>
-                <li><a href="/">Accordions</a></li>
-                <li><a href="/">Pagination</a></li>
+                <li><a href="/ui/card">Card</a></li>
+                <li><a href="/ui/alert">Alerts</a></li>
+                <li><a href="/ui/button">Buttons</a></li>
+                <li><a href="/ui/badge">Badges</a></li>
+                <li><a href="/ui/typography">Typography</a></li>
+                <li><a href="/ui/notification">Notifications</a></li>
+                <li><a href="/ui/modal">Modals</a></li>
+                <li><a href="/ui/tooltip">Tooltips</a></li>
+                <li><a href="/ui/progress">Progress</a></li>
+                <li><a href="/ui/spinner">Spinners</a></li>
+                <li><a href="/ui/accordion">Accordions</a></li>
+                <li><a href="/ui/pagination">Pagination</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="gift"></i>
                 <span>Icons</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Font Awesome</a></li>
-                <li><a href="/">Feather Icons</a></li>
-                <li><a href="/">Mdi icons</a></li>
-                <li><a href="/">Flag icons</a></li>
-                <li><a href="/">Simple line icons</a></li>
-                <li><a href="/">Themify icons</a></li>
-                <li><a href="/">Weather Icons</a></li>
+                <li><a href="/icon/font-awesome">Font Awesome</a></li>
+                <li><a href="/icon/feather">Feather Icons</a></li>
+                <li><a href="/icon/mdi">Mdi icons</a></li>
+                <li><a href="/icon/flag">Flag icons</a></li>
+                <li><a href="/icon/simple-line">Simple line icons</a></li>
+                <li><a href="/icon/themify">Themify icons</a></li>
+                <li><a href="/icon/weather">Weather Icons</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="command"></i>
                 <span>Components</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Date Picker</a></li>
-                <li><a href="/">Time Picker</a></li>
-                <li><a href="/">Color Picker</a></li>
-                <li><a href="/">Bootstrap Select</a></li>
-                <li><a href="/">Code Editor</a></li>
-                <li><a href="/">WYSIWYG Editor</a></li>
+                <li><a href="/components/datepicker">Date Picker</a></li>
+                <li><a href="/components/timepicker">Time Picker</a></li>
+                <li><a href="/components/colorpicker">Color Picker</a></li>
+                <li><a href="/components/bootselect">Bootstrap Select</a></li>
+                <li><a href="/components/codeeditor">Code Editor</a></li>
+                <li><a href="/components/wysiwyg">WYSIWYG Editor</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="calendar"></i>
                 <span>Forms</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Form Elements</a></li>
-                <li><a href="/">Form Layouts</a></li>
-                <li><a href="/">Form Wizard</a></li>
-                <li><a href="/">Form Validation</a></li>
-                <li><a href="/">File Upload</a></li>
-                <li><a href="/">Form Publishers</a></li>
-                <li><a href="/">Form Formatter </a></li>
+                <li><a href="/forms/element">Form Elements</a></li>
+                <li><a href="/forms/layout">Form Layouts</a></li>
+                <li><a href="/forms/wizard">Form Wizard</a></li>
+                <li><a href="/forms/validation">Form Validation</a></li>
+                <li><a href="/forms/upload">File Upload</a></li>
+                <li><a href="/forms/publisher">Form Publishers</a></li>
+                <li><a href="/forms/formatter">Form Formatter </a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="database"></i>
                 <span>Tables</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Static</a></li>
-                <li><a href="/">Responsive</a></li>
-                <li><a href="/">Data Tables</a></li>
-                <li><a href="/">Foo Tables</a></li>
+                <li><a href="/tables/static">Static</a></li>
+                <li><a href="/tables/responsive">Responsive</a></li>
+                <li><a href="/tables/datatable">Data Tables</a></li>
+                <li><a href="/tables/footable">Foo Tables</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="pie-chart"></i>
                 <span>Charts</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Apex</a></li>
-                <li><a href="/">Google</a></li>
-                <li><a href="/">Morris</a></li>
-                <li><a href="/">ChartJS</a></li>
-                <li><a href="/">Flot</a></li>
-                <li><a href="/">Chartlist</a></li>
-                <li><a href="/">Sparkline</a></li>
+                <li><a href="/charts/apex">Apex</a></li>
+                <li><a href="/charts/google">Google</a></li>
+                <li><a href="/charts/morris">Morris</a></li>
+                <li><a href="/charts/chartjs">ChartJS</a></li>
+                <li><a href="/charts/flot">Flot</a></li>
+                <li><a href="/charts/chartlist">Chartlist</a></li>
+                <li><a href="/charts/sparkline">Sparkline</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="map"></i>
                 <span>Maps</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Google Maps</a></li>
-                <li><a href="/">Vector Maps</a></li>
+                <li><a href="/maps/google">Google Maps</a></li>
+                <li><a href="/maps/vector">Vector Maps</a></li>
               </ul>
             </li>
             <li className="menu-divider mg-y-20-force"></li>
@@ -199,26 +199,26 @@ export default function Sidebar() {
               <a href="#"><i data-feather="cpu"></i>
                 <span>App View</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Chat Room</a></li>
-                <li><a href="/">Calendar</a></li>
+                <li><a href="/apps/chatroom">Chat Room</a></li>
+                <li><a href="/apps/calendar">Calendar</a></li>
               </ul>
             </li>
             <li>
               <a href="#"><i data-feather="codepen"></i>
                 <span>Pages</span><i className="accordion-icon fa fa-angle-left"></i></a>
               <ul className="sub-menu">
-                <li><a href="/">Invoice</a></li>
-                <li><a href="/">404 Page</a></li>
-                <li><a href="/">500 Page</a></li>
-                <li><a href="/">Profile</a></li>
-                <li><a href="/">Login</a></li>
-                <li><a href="/">Register</a></li>
-                <li><a href="/">Lockscreen</a></li>
-                <li><a href="/">password Reset</a></li>
-                <li><a href="/">Search Result</a></li>
-                <li><a href="/">Gallery</a></li>
-                <li><a href="/">Pricing Tables</a></li>
-                <li><a href="/">Tree View</a></li>
+                <li><a href="/pages/invoice">Invoice</a></li>
+                <li><a href="/pages/404">404 Page</a></li>
+                <li><a href="/pages/500">500 Page</a></li>
+                <li><a href="/pages/profile">Profile</a></li>
+                <li><a href="/pages/login">Login</a></li>
+                <li><a href="/pages/register">Register</a></li>
+                <li><a href="/pages/lockscreen">Lockscreen</a></li>
+                <li><a href="/pages/password">password Reset</a></li>
+                <li><a href="/pages/search">Search Result</a></li>
+                <li><a href="/pages/gallery">Gallery</a></li>
+                <li><a href="/pages/pricing">Pricing Tables</a></li>
+                <li><a href="/pages/treeview">Tree View</a></li>
               </ul>
             </li>
             <li>
